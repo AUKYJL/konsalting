@@ -17,7 +17,7 @@ export const Header: React.FC<Props> = ({ className }) => {
           <p className="mt-2 text-[30px] font-bold text-[#2D3242] max-[500px]:text-[16px] max-[350px]:text-[25px]">
             Скидка действует:
           </p>
-          <Counter timerInSeconds={1} />
+          <Counter timerInSeconds={120} />
         </div>
       </Container>
     </header>
